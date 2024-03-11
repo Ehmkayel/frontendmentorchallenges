@@ -46,7 +46,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px
+    padding: 20px;
+    margin: 0 0 100px;
    
 }
 
@@ -67,7 +68,7 @@ nav .menu{
     background: white;
     border-radius: 50px;
     color: var(--Very-dark-desaturated-blue);
-    padding: 6px 12px;
+    padding: 6px 20px;
 }
 
 header .hero{
@@ -81,13 +82,13 @@ header .hero{
 }
 
 .hero h1{
-    top: 50px;
+    /* top: 50px; */
     color: var(--White);
 }
 
 .hero .arrow{
     position: absolute;
-    top: 200px;
+    top: 130px;
 
     
 }
@@ -161,6 +162,7 @@ footer{
     padding: 50px 0;
     background: var(--Dark-moderate-cyan);
     text-align: center;
+    margin: -5px 0 0;
 }
 
 .footer-logo{
