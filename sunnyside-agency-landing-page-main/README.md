@@ -19,6 +19,7 @@ This is a solution to the [Sunnyside agency Landing  page challenge on Frontend 
 ### Screenshot
 
 ![desktop](./screenshot/desktop.png)
+![laptop](./screenshot/laptop.png)
 ![mobile](./screenshot/mobile.png)
 
 ### Links
