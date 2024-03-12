@@ -12,6 +12,7 @@
 --Dark-grayish-blue: hsl(232, 10%, 55%);
 --Grayish-blue: hsl(210, 4%, 67%);
 --White: hsl(0, 0%, 100%);
+--footer: hsl(166, 44%, 70%);
 }
 
 *, ::before, ::after{
@@ -23,7 +24,7 @@
 body{
     background: var(--White);
     font-size: 1.2em;
-    font-family: "Fraunces", serif;;
+    font-family: 'Barlow', sans-serif;
 }
 
 li{
@@ -78,6 +79,10 @@ nav .menu{
     padding: 6px 20px;
 }
 
+.mobile{
+    display: none;
+}
+
 header .hero{
     display: flex;
     flex-direction: column;
@@ -89,6 +94,8 @@ header .hero{
 
 .hero h1{
     color: var(--White);
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .hero .arrow{
@@ -98,19 +105,17 @@ header .hero{
     
 }
 
-section{
+.transform{
     display: flex;
     align-items: center;
-    
-    
 }
-
 .transform .right{
     padding: 0 105px;
   
 }
 
 .transform .right h1, .stand-out .left h1{
+    font-family: "Fraunces", serif;
     font-size: 3rem;
     font-weight: 900;
     color: var(--Very-dark-desaturated-blue);
@@ -132,9 +137,17 @@ section{
     
 }
 
+.stand-out{
+    display: flex;
+    align-items: center;
+
+
+}
+
 .stand-out, .graphic-photography{
     margin-top: -5px;
 }
+
 
 .stand-out .left{
     padding: 0 100px;
@@ -150,6 +163,11 @@ section{
 
 }
 
+.graphic-photography{
+    display: flex;
+
+}
+
 .graphic, .photography{
     position: relative;
 }
@@ -159,6 +177,7 @@ section{
     top: 350px;
     text-align: center;
     padding: 50px;
+    font-family: "Fraunces", serif;
 
 }
 
@@ -192,6 +211,8 @@ section{
     color: var(--Dark-grayish-blue);
     text-transform: uppercase;
     font-size: 1.3em;
+    font-family: "Fraunces", serif;
+    text-align: center;
 
 }
 
@@ -220,14 +241,16 @@ section{
 .middle p{
     margin-right: 21px;
 }
-.testimonials h3{
-
-}
 
 .testimonials .title{
     font-size: 0.8em;
     color: var(--Grayish-blue);
     margin: 0;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .gallery img{
@@ -236,14 +259,11 @@ section{
 
 footer{
     padding: 50px 0;
-    background: var(--Dark-moderate-cyan);
+    background: var(--footer);
     text-align: center;
     margin: -5px 0 0;
 }
 
-.footer-logo{
-    color: var(--Dark-desaturated-cyan)
-}
 
 .footer-menu{
     display: flex;
@@ -275,5 +295,170 @@ footer a{
     text-align: center;
   }
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Dark-desaturated-cyan);
+    font-size: 1.4rem;
+  }
+
+  @media screen and (min-width: 320px) and (max-width:768px){
+   body{
+    font-size: 1rem;
+   }
+   
+    header{
+    background: url(./images/mobile/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+   
+   }
+
+   nav .menu{
+    position: absolute;
+    flex-direction: column;
+    top: 90px;
+    right: 20px;
+    left: 20px;
+    background: var(--White);
+    height: 50vh;
+    width: 87%;
+    text-align: center;
+    z-index: 3;
+    display: none;
+
+   }
+
+   nav .menu::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 0;
+    border-right: 0px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 34px solid white;
+
+   }
+
+   nav .menu li{
+    padding-bottom: 20px;
+   }
+
+   
+   .mobile{
+    display: block;
+   }
+
+   .close-nav{
+    display: none;
+   }
+
+   .active a{
+    background: var(--Yellow);
+    padding: 10px 20px;
+   }
+
+   .menu a{
+    text-decoration: none;
+    color: var(--Dark-blue)
+}
+
+   .hero{
+    margin: -50px 0 0;
+   }
+  
+   .hero h1{
+    text-align: center;
+    font-size: 2.5rem;
+   }
+
+   .hero img{
+    width: 20px;
+    height: 50px;
+   }
+
+   .hero .arrow{
+    top: 150px
+   }
+
+   .transform{
+    flex-direction: column-reverse;
+   }
+
+   .transform img, .stand-out img{
+    height: 300px;
+    width: 100%;
+   }
+   .transform .right, .stand-out .left{
+    padding: 50px 20px;
+  
+    }
+
+   .transform .right h1, .stand-out .left h1{
+    font-size: 1.6rem;
+    text-align: center;
+    }
+
+    .transform .right p, .stand-out .left p{
+    margin: 20px 0;
+    text-align: center;
+    }
+
+    .stand-out{
+    flex-direction: column;
+    }
+
+    .graphic-photography{
+    flex-direction: column;
+    }
+
+    .graphic-photography img{
+    height: 500px;
+    width: 100%;
+    }
+
+.graphic-text, .photography-text{
+    top: 300px; 
+    padding: 10px;
+
+}
+
+.graphic-text p, .photography-text p{
+    padding: 20px 5px;
+   
+}
+
+.testimonials{  
+    padding: 50px 20px;
+
+}
+
+.testimonials h2{
+    padding-bottom: 30px;
+    font-size: 1em;
+
+}
+    
+   .testimonials-content{
+    flex-direction: column;
+    gap: 30px;
+   }
+
+   .testimonials img{
+    width: 50px; 
+    height: 50px;
+
+}
+
+.testimonials-content p{
+    margin: 20px 0;
+  
+}
+
+   .gallery{
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .attribution a {
+    font-size: 1rem;
+  }
+
   }
