@@ -6,6 +6,7 @@
 --Light-Blue: hsl(233, 100%, 69%);
 --Dark-Grayish-Blue: hsl(210, 10%, 33%);
 --Grayish-Blue: hsl(201, 11%, 66%);
+--footer:  hsl(220, 18%, 97%);
 }
 
 
@@ -120,5 +121,67 @@ header .logo{
     padding-bottom: 50px;
     text-align: justify;
 }
+
+.access{
+    text-align: center;
+}
+
+.access p{
+    margin: 10px 0 50px;
+}
+
+.supercharge{
+    text-align: center;
+}
+
+.supercharge h3{
+    padding-top: 20px;
+    color: var(--Dark-Grayish-Blue);
+
+}
+
+.supercharge p{
+    padding-top: 10px;
+}
+.supercharge-content{
+    display: flex;
+    padding: 30px 100px 0;
+}
+
+.brands{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.brands img{
+    object-fit: contain;
+}
+
+.clipboard{
+    text-align: center;
+}
+
+.clipboard p{
+    padding: 10px 0 50px;
+}
+
+footer{
+    background: var(--footer);
+    margin: 3em 0 0;
+}
+
+.footer-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+
+}
+
+.footer-logo{
+    width: 70px;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
