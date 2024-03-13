@@ -1,2 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2em;
+    font-family: "Bai Jamjuree", sans-serif;;
+}
+
+section{
+    padding: 1.8em 0;
+}
+
+p{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+}
+
+header{
+    background: url(./images/bg-header-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 70px 0 50px;
+}
+
+.hero{
+    text-align: center;
+    padding: 0;
+}
+
+.hero h1{
+    font-size: 2em;
+}
+
+.hero p{
+    margin: 1em 0;
+   
+}
+
+.buttons .ios{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: var(--Strong-Cyan);
+    color: white;
+    border: none;
+    box-shadow: 0 6px 10px rgba(38, 186, 164, 0.3);
+    border-bottom: 2px groove rgba(38, 186, 164, 0.6);
+   
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons .mac{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: var(--Light-Blue);
+    color: white; 
+    border: none;
+    box-shadow: 0 6px 10px rgba(97, 115, 255, 0.1);
+    border-bottom: 2px groove rgba(97, 115, 255, 0.9);
+}
+
+.track{
+    margin: 50px auto;
+    
+}
+
+.track h2{
+    text-align: center;
+
+}
+
+.track p{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.snippets-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.snippets-content .left{
+    padding: 0 250px 0 100px;
+}
+
+.snippets-content .left p{
+    margin-top: 5px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }

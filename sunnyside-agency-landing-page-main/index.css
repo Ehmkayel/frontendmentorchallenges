@@ -15,7 +15,7 @@
 --footer: hsl(166, 44%, 70%);
 }
 
-*, ::before, ::after{
+*, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
