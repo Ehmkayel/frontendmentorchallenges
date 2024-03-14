@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [code](https://github.com/Ehmkayel/frontendmentorchallenges/tree/main/clipboard-landing-page-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Clipboard live site](https://frontendmentorchallenges-ju9v.vercel.app/)
 
 ## My process
 
