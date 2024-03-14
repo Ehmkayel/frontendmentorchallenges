@@ -28,6 +28,20 @@ section{
 p{
     color: var(--Grayish-Blue);
     line-height: 1.5;
+    font-size: 1em;
+}
+
+h1, h2, h3{
+    color: var(--Dark-Grayish-Blue);
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+li{
+    list-style-type: none;
+    padding-bottom: 10px;
 }
 
 header{
@@ -42,7 +56,7 @@ header .logo{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 70px 0 50px;
+    padding: 100px 0 50px;
 }
 
 .hero{
@@ -52,11 +66,19 @@ header .logo{
 
 .hero h1{
     font-size: 2em;
+   
 }
 
 .hero p{
     margin: 1em 0;
    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .buttons .ios{
@@ -70,12 +92,7 @@ header .logo{
    
 }
 
-.buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+
 
 .buttons .mac{
     padding: 10px 20px;
@@ -126,6 +143,7 @@ header .logo{
     text-align: center;
 }
 
+
 .access p{
     margin: 10px 0 50px;
 }
@@ -136,16 +154,20 @@ header .logo{
 
 .supercharge h3{
     padding-top: 20px;
-    color: var(--Dark-Grayish-Blue);
 
 }
 
 .supercharge p{
     padding-top: 10px;
+    font-size: 1em;
 }
+
 .supercharge-content{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 30px 100px 0;
+    margin: 2em 0;
 }
 
 .brands{
@@ -169,19 +191,173 @@ header .logo{
 footer{
     background: var(--footer);
     margin: 3em 0 0;
+  
 }
 
-.footer-contents{
+.footer{
     display: flex;
-    justify-content: space-between;
+    gap: 200px;
     padding: 30px 100px;
 
+}
+
+.contents{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+
+}
+.lists{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-contents .item{
+    cursor: pointer;
 }
 
 .footer-logo{
     width: 70px;
 }
 
+.item__images {
+    display: flex;
+    gap: 10px;
+  
+}
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.item__images img{
+    object-fit: contain;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-size: 1.4em;
+ }
+
+ @media screen and (max-width: 768px){
+
+    main{
+        padding: 0 20px;
+    }
+    header{
+        background: url(./images/bg-header-mobile.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    header .logo{
+        padding: 90px 0 50px;
+        width: 90px;
+    }
+    
+    .hero h1{
+        font-size: 1.8em;
+        text-align: center;
+       
+    }
+
+     .break{
+        display: none;
+      
+    }
+    .buttons{
+        flex-direction: column;
+    
+    }
+    .buttons .ios, .buttons .mac{
+        padding: 15px 60px;
+        
+    }
+
+    img{
+        width: 100%;
+    }
+
+    .snippets-content{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .snippets-content .left{
+        margin-top: 20px;
+        padding: 0 50px 0 30px;
+        text-align: center;
+    }
+
+    .snippets-content .left p{
+        text-align: center;
+    }
+    
+     h2{
+        font-size: 1.5em;
+    }
+
+    .supercharge-content{
+        flex-direction: column;
+        padding: 30px 30px 0;
+        margin: 1em 0;
+    }
+
+    .supercharge-content img{
+        width: 70px;
+        margin-top: 50px;
+    }
+
+    .brands{
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 50px;
+    }
+
+    .brands img{
+       width: 100px;
+       height: 100px;
+    }
+
+
+
+    .footer, .lists{
+        flex-direction: column;
+        gap: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .contents{
+        flex-direction: column;
+        gap: 20px;
+    
+    }
+
+    .footer-logo{
+        width: 50px;
+    }
+
+    .item__images {
+        margin: auto; 
+    }
+
+    .item__images img{
+        width: 20px;
+    }
+    
+    li{
+        padding-bottom: 10px;
+    }
+
+/* 
+    img{
+        width: 100%;
+    } */
+
+
+
+    
+ }
