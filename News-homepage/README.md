@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./Screenshot/desktop.png)
-![Hover](./Screenshot/hover.png)
+![Hover](./Screenshot/active.png)
 ![Mobile](./Screenshot/mobile.png)
 
 
