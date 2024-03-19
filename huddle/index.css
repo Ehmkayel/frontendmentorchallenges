@@ -20,6 +20,7 @@
 body{
     font-size: 1em; 
     font-family: "Open Sans", sans-serif;
+
 }
 
 h1, h2, h3{
@@ -42,7 +43,9 @@ p{
 }
 
 main{
+    width: 100%;
     max-width: 1440px;
+    
     margin: 50px auto 0;
    
 }
@@ -51,6 +54,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 50px;
+    margin: 0 auto;
     
 }
 
@@ -115,17 +120,25 @@ nav{
     background-repeat: no-repeat; 
     background-size: contain; 
     background-position: top left, top right, bottom left, bottom right;
+    padding: 140px 0;
+
+    
+}
+
+.grow-background, .users-background{
+    background: var(--Very-Pale-Blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 140px;
-    background: var(--Very-Pale-Blue);
-    margin:0 -35px 0 -50px ;
+    margin:0  ;
     gap: 100px;
+    padding: 0 100px;
+  
+ 
 }
 
-.grow-right, .users-right{
-    max-width: 500px;
+.grow-background p, .users-background p{
+    max-width: 750px;
 }
 
 .conversations{
@@ -147,21 +160,26 @@ footer{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: top;
+    padding: 140px 0 0;
+}
+
+.footer-background{
     background: var(--Very-Dark-Cyan);
-    margin:0 -35px 0 -40px;
+    padding: 100px;
+
 }
 
 .footer-content{
     display: flex;
     justify-content: space-between;
-    gap: 700px;
-    padding: 100px;
     color: var(--Very-Pale-Blue);
+  
    
 }
 
 footer p{
     font-size: 0.8rem;
+    max-width: 300px;
 }
 
 .footer-right .flex{
@@ -210,10 +228,12 @@ footer p{
    
 }
 
-.attribution {
-    font-size: 11px;
+.footer-background .attribution {
+    font-size: 1em;
     text-align: center;
+    margin: 50px auto 0;
+    max-width: 700px;
   }
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--Very-Pale-Blue);
   }
