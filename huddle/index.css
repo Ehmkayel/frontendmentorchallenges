@@ -61,6 +61,7 @@ nav{
     border-color: var(--Light-Pink);
     border: 2px solid var(--Light-Pink);
     background: transparent;
+    cursor: pointer;
 }
 
 .community{
@@ -92,6 +93,7 @@ nav{
     font-weight: 400;
     margin-bottom: 70px;
     box-shadow: 0 4px 8px rgba(20, 50, 100, 0.3);
+    cursor: pointer;
 }
 
 .community-count{
@@ -182,12 +184,15 @@ footer p{
     display: flex;
     gap: 30px;
     margin-top: 30px;
+    
 }
 
 .footer-btn{
     width: 200px;
     height: 30px;
     border-radius: 5px;
+    cursor: pointer;
+    border: none;
 }
 
 .footer-pink{
@@ -195,10 +200,14 @@ footer p{
     border-radius: 5px;
     background: var(--Pink);
     color: var(--Very-Pale-Blue);
+    cursor: pointer;
+    border: none;
 }
 
 .icons{
-    color: var(--Very-Pale-Blue)
+    color: var(--Very-Pale-Blue);
+    cursor: pointer;
+   
 }
 
 .attribution {
