@@ -343,6 +343,44 @@ footer p{
         align-self: end;
     }
 
+    @media  screen and (min-width: 320px) and (max-width:756px){
+
+        main{
+            margin: 30px auto 0;
+        }
+
+        p{
+            font-size: 1em;
+        }
+
+        nav{
+            padding: 20px;
+        }
+
+        .header-logo{
+            width: 130px;
+
+        }
+
+        .community{
+            padding: 0 20px;
+        }
+
+        .community h1{
+            font-size: 1.8rem;
+            margin: 30px 10px 40px;
+
+        }
+
+        .button-pink{
+            margin-bottom: 150px;
+        }
+
+        .community-count{
+            gap: 50px;
+        }
+        
+    }
     /* footer p{
         font-size: 1.6em;
     } */
