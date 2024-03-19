@@ -101,6 +101,10 @@ nav{
     cursor: pointer;
 }
 
+.button-pink:hover{
+    background: var(--Light-Pink)
+}
+
 .community-count{
     display: flex;
     justify-content: space-between;
@@ -222,6 +226,10 @@ footer p{
     border: none;
 }
 
+.footer-pink:hover{
+    background: var(--Light-Pink);
+}
+
 .icons{
     color: var(--Very-Pale-Blue);
     cursor: pointer;
@@ -237,3 +245,29 @@ footer p{
   .attribution a {
     color: var(--Very-Pale-Blue);
   }
+
+  @media screen and (max-width: 768px){
+    .community-count{
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .grow, .users{
+        background-image: url(./images/bg-section-top-mobile-1.svg), url(./images/bg-section-top-mobile-2.svg), url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-bottom-desktop-2.svg);
+        background-repeat: no-repeat; 
+        background-size: contain; 
+        background-position: top left, top right, bottom left, bottom right;
+        padding: 140px 0 20px ;
+    
+        
+    }
+
+    .grow-background, .users-background{
+        flex-direction: column-reverse;
+        padding: 0 100px;
+    }
+    
+    .conversations{
+        flex-direction: column;
+    }
+}
