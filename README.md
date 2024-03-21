@@ -7,4 +7,5 @@
  - Live site URL: [Sunnyside Landing page](https://frontendmentorchallenges-six.vercel.app/)
  - Live site URL: [Clipboard landing page](https://frontendmentorchallenges-ju9v.vercel.app/)
  - Live site URL: [News Homepage](https://newshomepage-f06se1d0y-ehmkayels-projects.vercel.app/)
+ - Live Site URL: [Huddle](https://dazzling-marzipan-8d7083.netlify.app/)
 

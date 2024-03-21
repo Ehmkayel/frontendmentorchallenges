@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [code](https://github.com/Ehmkayel/frontendmentorchallenges/tree/main/huddle)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Huddle](https://dazzling-marzipan-8d7083.netlify.app/)
 
 ## My process
 
