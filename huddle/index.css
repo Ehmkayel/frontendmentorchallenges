@@ -373,7 +373,7 @@ footer p{
         }
 
         .button-pink{
-            margin-bottom: 150px;
+            margin-bottom: 100px;
         }
 
         .community-count{
@@ -381,7 +381,48 @@ footer p{
         }
         
     }
-    /* footer p{
-        font-size: 1.6em;
-    } */
+
+    .grow, .users{
+        background-image: url(./images/bg-section-top-mobile-1.svg), url(./images/bg-section-top-mobile-2.svg), url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-bottom-desktop-2.svg);
+        background-repeat: no-repeat; 
+        background-size: contain; 
+        background-position: top left, top right, bottom left, bottom right;
+        padding: 50px 0 20px ;
+    
+        
+    }
+
+    
+    .grow-background, .users-background{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+    }
+
+    .conversations{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin: 50px 0;
+        padding: 50px;
+    }
+
+    footer{
+        background: url(./images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        padding: 50px 0 0;
+    }
+
+    footer p{
+        font-size: 1.4em;
+    }
+
+    .footer-background .attribution {
+        font-size: 0.8em;
+        text-align: center;
+        margin: 50px auto 0;
+        max-width: 700px;
+      }
 }
