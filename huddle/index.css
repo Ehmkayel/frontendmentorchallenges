@@ -246,6 +246,41 @@ footer p{
     color: var(--Very-Pale-Blue);
   }
 
+  @media  screen and (min-width: 900px) and (max-width: 1200px){
+
+    .community{
+        padding: 0 100px;
+    }
+
+    .community h1{
+        margin: 50px 50px 50px;
+        font-size: 2rem;
+    }
+
+    .grow, .users{
+        background-image: url(./images/bg-section-top-mobile-1.svg), url(./images/bg-section-top-mobile-2.svg), url(./images/bg-section-bottom-desktop-1.svg), url(./images/bg-section-bottom-desktop-2.svg);
+        background-repeat: no-repeat; 
+        background-size: contain; 
+        background-position: top left, top right, bottom left, bottom right;
+        padding: 120px 0 50px ;
+    
+        
+    }
+
+    .grow-background, .users-background{
+        padding: 50px 100px;
+    }
+
+    footer{
+        background: url(./images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        padding: 80px 0 0;
+    }
+    
+  }
+
   @media screen and (max-width: 768px){
 
     p{
