@@ -8,5 +8,5 @@
  - Live site URL: [Clipboard landing page](https://frontendmentorchallenges-ju9v.vercel.app/)
  - Live site URL: [News Homepage](https://newshomepage-f06se1d0y-ehmkayels-projects.vercel.app/)
  - Live Site URL: [Huddle](https://dazzling-marzipan-8d7083.netlify.app/)
- - Live Site URL: [Live site](https://spiffy-puppy-b9806c.netlify.app/)
+ - Live Site URL: [Intro-section](https://spiffy-puppy-b9806c.netlify.app/)
 
