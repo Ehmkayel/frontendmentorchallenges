@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./images/logo.svg" class="logo" />
+        <nav>
+          <ul class="menu">
+            <li class="nav-item sub-list">
+              <a href="#"
+                >Features
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="dropdown arrow"
+                  class="sub-menu"
+              /></a>
+              <ul class="dropdown">
+                <li class="link">
+                  <a href="#"
+                    ><img src="./images/icon-todo.svg" /><span
+                      >Todo List</span
+                    ></a
+                  >
+                </li>
+                <li class="link">
+                  <a href="#"
+                    ><img src="./images/icon-calendar.svg" /><span
+                      >Calender</span
+                    ></a
+                  >
+                </li>
+                <li class="link">
+                  <a href="#"
+                    ><img src="./images/icon-reminders.svg" /><span
+                      >Reminders</span
+                    ></a
+                  >
+                </li>
+                <li class="link">
+                  <a href="#"
+                    ><img src="./images/icon-planning.svg" /><span
+                      >Planning</span
+                    ></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item sub-list">
+              <a href="#"
+                >Company
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="dropdown arrow"
+                  class="sub-menu"
+              /></a>
+              <ul class="dropdown dropdown_company">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#">Careers</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div class="buttons">
+          <button class="login">Login</button>
+          <button>Register</button>
+        </div>
+        <div class="mobile">
+          <img src="./images/icon-menu.svg" id="open-nav" />
+          <img src="./images/icon-close-menu.svg" id="close-nav" />
+        </div>
+      </header>
+      <section class="hero">
+        <div class="right">
+          <h1>Make remote work</h1>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button>Learn more</button>
+          <div class="icons">
+            <img src="./images/client-databiz.svg" alt="databiz logo" />
+            <img src="./images/client-audiophile.svg" alt="audiophile logo" />
+            <img src="./images/client-meet.svg" alt="meet logo" />
+            <img src="./images/client-maker.svg" alt="maker logo" />
+          </div>
+        </div>
+        <div class="left">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/image-hero-desktop.png"
+              height="550"
+            />
+            <img
+              src="./images/image-hero-mobile.png"
+              alt="mobile image"
+              width="400"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Lamidi Morufat Kajogbola</a>.
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>
