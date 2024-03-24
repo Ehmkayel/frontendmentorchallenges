@@ -1,7 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+--Dark-Blue-Email: hsl(217, 28%, 15%);
+--Dark-Blue-Main: hsl(218, 28%, 13%);
+--Dark-Blue-Footer: hsl(216, 53%, 9%);
+--Dark-Blue-Testimonials: hsl(219, 30%, 18%);
+--Cyan: hsl(176, 68%, 64%);
+--Blue: hsl(198, 60%, 50%);
+--Light-Red: hsl(0, 100%, 63%);
+--White: hsl(0, 0%, 100%);
+}
+
 *, *::before, *::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.875em;
+    color: var(--White);
+    background: var(--Dark-Blue-Main);
+    
+
+}
+
+main{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--Dark-Blue-Main);
+}
+
+section{
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--White);
+}
+
+h1, h3{
+    font-family: "Raleway", sans-serif;
+    font-weight:  700;
+}
+
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 0 auto;
+   
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-family: "Raleway", sans-serif;
+    
+
+}
+
+.header-logo{
+    width: 100px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+   
+}
+
+.features .card{
+    max-width: 400px;
+    margin: auto;
+
+}
+
+
+
+.features .card h3{
+    margin: 10px 0;
 }
 
 .attribution {
