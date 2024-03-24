@@ -14,7 +14,16 @@
  ## Clipboard Landing Page
  ![desktop](./clipboard-landing-page-master/screenshots/desktop.png)
  - Live site URL: [Clipboard landing page](https://frontendmentorchallenges-ju9v.vercel.app/)
+
+ ## News Homepage
+ ![desktop](./News-homepage/Screenshot/desktop.png)
  - Live site URL: [News Homepage](https://newshomepage-f06se1d0y-ehmkayels-projects.vercel.app/)
+
+ ## Huddle Landing page
+ ![desktop](./huddle/screenshots/desktops.png)
  - Live Site URL: [Huddle](https://dazzling-marzipan-8d7083.netlify.app/)
+
+ ## Intro Section Landing Page
+ ![desktop](./Intro-section/screenshot/desktop.png)
  - Live Site URL: [Intro-section](https://spiffy-puppy-b9806c.netlify.app/)
 
