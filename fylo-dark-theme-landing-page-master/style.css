@@ -37,6 +37,7 @@ main{
 
 section{
     text-align: center;
+    padding: 1.8em 0;
 }
 
 li{
@@ -51,6 +52,14 @@ a{
 h1, h3{
     font-family: "Raleway", sans-serif;
     font-weight:  700;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    line-height: 1.5;
 }
 
 img{
@@ -79,16 +88,43 @@ nav .menu{
     width: 100px;
 }
 
+.cta{
+    background: var(--Blue);
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: var(--White);
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px 50px;
+    border: none;
+}
+
+
+.hero h1{
+    margin-top: 20px;
+}
+
+.hero p{
+    padding: 20px 0;
+    max-width: 440px;
+    margin: 0 auto;
+    
+}
+
 .features{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
+    margin-top: 50px;
+    padding: 0 200px;
+
    
 }
 
 .features .card{
     max-width: 400px;
     margin: auto;
+    padding: 0 20px;
 
 }
 
@@ -96,6 +132,174 @@ nav .menu{
 
 .features .card h3{
     margin: 10px 0;
+}
+
+.productive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: start;
+    padding: 0 100px;
+}
+
+.productive p{
+    max-width: 500px;
+    padding-top: 20px;
+}
+
+.link a{
+    padding-bottom: 3px;
+    border-bottom: 2px solid var(--Cyan);
+    
+}
+
+.testimonials{
+    text-align: start;
+    padding: 120px ;
+    position: relative;
+    
+
+}
+
+.testimonials-cards{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    text-align: start;
+    position: absolute;
+    top: 105px;
+    right: 120px;
+    left: 130px;
+    
+  
+
+}
+
+
+.founder-content{
+    background: var(--Dark-Blue-Testimonials);
+    padding: 40px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 10px 4px 6px rgba(36, 46, 46, 0.5);
+   
+}
+
+.founder-profile{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.founder-content img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.founder-content .small{
+    font-size: 0.4em;
+}
+
+.early-access{
+    background: var(--Dark-Blue-Email);
+    margin: 200px auto -100px;
+    max-width: 800px;
+    position: relative;
+    padding: 30px 90px;
+    
+   
+
+}
+
+.early-access p{
+    margin: 20px 0;
+}
+
+form{
+    display: flex;
+    gap: 30px;
+}
+
+input[type="email"]{
+    padding: 20px 20px;
+    width: 400px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.cta-early{
+    padding: 10px 20px;
+}
+
+footer{
+    background: var(--Dark-Blue-Footer);
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px 50px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.footer-logo{
+    width: 100px
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.footer-location{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.footer-location img{
+    width: 15px;
+    height: 25px;
+}
+
+.footer-location p{
+    max-width: 300px;
+}
+
+.footer-contact{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-contact img{
+    width: 20px;
+    height: 20px;
+
+}
+
+.footer-item li, .footer-item p{
+    padding-bottom: 20px;
+
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    filter: invert(100%);
+
+}
+
+.icons img{
+    width: 25px;
+    height: 25px;
+   
 }
 
 .attribution {
