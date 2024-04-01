@@ -27,3 +27,6 @@
  ![desktop](./Intro-section/screenshot/desktop.png)
  - Live Site URL: [Intro-section](https://spiffy-puppy-b9806c.netlify.app/)
 
+## Flyo two column landing page
+![desktop](./fylo-landing-page-with-two-column-layout-master/Screenshot/desktop.png)
+- Live Site URL: [Flyo landing page](https://flyo-cyan.vercel.app/)
