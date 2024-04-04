@@ -123,6 +123,7 @@ nav .menu{
 
 .features .card{
     max-width: 400px;
+    width: 100%;
     margin: auto;
     padding: 0 20px;
 
@@ -309,3 +310,143 @@ footer{
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+ @media screen and (max-width: 768px){
+
+    h3{
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 1.4rem;
+    }
+
+    .none{
+        display: none;
+    }
+    .features{
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+        
+    }
+
+    .features .card{
+        padding: 0 10px;
+        max-width: 500px;
+        width: 100%;
+    
+       
+    }
+
+    .productive{
+        flex-direction: column;
+        padding: 20px
+    }
+
+    .testimonials-cards{
+        flex-direction: column;
+    }
+
+    .early-access{
+        margin: 1000px auto -100px;
+        max-width: 700px;
+        padding: 30px 50px;
+
+    }
+
+    form{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    input[type="email"]{
+        padding: 40px 40px;
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .cta-early{
+        width: 100%;
+        padding: 40px 40px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer-item a{
+        font-size: 1.4em;
+    }
+
+    .icons{
+        margin: 50px auto;
+    }
+
+    .attribution a{
+        font-size: 1.2em;
+        color: var(--Cyan)
+    }
+ }
+
+ @media  screen and (min-width: 300px) and (max-width: 600px) {
+
+    h1{
+        font-size: 1.8em;
+    }
+
+    h3{
+        font-size: 1.4em;
+    }
+
+    p{
+        font-size: 1.2em;
+    }
+
+    nav{
+        padding: 30px;
+    }
+
+    nav .menu{
+        gap: 10px;
+    }
+
+    .testimonials{
+        padding: 50px;
+    }
+
+    .testimonials-cards{
+        right: 50px;
+        left: 50px;
+        top: 30px
+    }
+
+    .founder-content{
+        padding: 20px 12px; 
+    }
+
+    .early-access{
+        margin: 750px auto -100px;
+        max-width: 350px;
+        padding: 30px 20px;
+    }
+
+    input[type="email"]{
+        padding: 20px 20px;
+        width: 100%;
+        height: 30px;
+        border-radius: 50px;
+    }
+
+    .cta-early{
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    footer{
+        padding: 150px 20px 30px;
+    }
+    
+ }
