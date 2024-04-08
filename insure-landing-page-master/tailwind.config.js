@@ -17,6 +17,11 @@ module.exports = {
         veryDarkViolet: 'hsl(270, 9%, 17%)',
         darkGrayishViolet: 'hsl(273, 4%, 51%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
+      },
+      backgroundImage: {
+        'hero-background': "url('./images/bg-pattern-how-we-work-mobile.svg')",
+        
+        
       }
     },
   },
