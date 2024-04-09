@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/main.css" />
 
     <title>Frontend Mentor | Insure landing page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
         font-size: 11px;
@@ -26,66 +24,113 @@
     </style>
   </head>
   <body>
-    <nav class="relative container mx-auto p-6">
-      <div class="flex items-center justify-between">
-        <div class="">
-          <img src="./images/logo.svg" alt="insure logo" />
+    <main class="mx-auto text-xs">
+      <nav class="relative container mx-auto py-6 px-40">
+        <div class="flex items-center justify-between">
+          <div class="">
+            <img src="./images/logo.svg" alt="insure logo" />
+          </div>
+          <div>
+            <ul class="hidden md:flex space-x-6">
+              <li>
+                <a
+                  href="#"
+                  class="uppercase text-darkGrayishViolet hover:text-darkViolet"
+                  >How we work</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="uppercase text-darkGrayishViolet hover:text-darkViolet"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="uppercase text-darkGrayishViolet hover:text-darkViolet"
+                  >Account</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="uppercase text-darkViolet hover:text-veryLightGray border-2 py-1 px-3 border-darkGrayishViolet hover:bg-veryDarkViolet"
+                  >View plans</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <ul class="hidden md:flex space-x-6">
-            <li>
-              <a
-                href="#"
-                class="uppercase text-darkGrayishViolet hover:text-darkViolet"
-                >How we work</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="uppercase text-darkGrayishViolet hover:text-darkViolet"
-                >Blog</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="uppercase text-darkGrayishViolet hover:text-darkViolet"
-                >Account</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="uppercase text-darkViolet hover:text-veryLightGray border-2 py-1 px-3 border-darkGrayishViolet hover:bg-veryDarkViolet"
-                >View plans</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="hero bg-">
-      <div
-        class="container flex flex-col-reverse md:flex-row mt-3 space-y-0 md:space-y-0 bg-darkViolet px-40"
+      </nav>
+      <section
+        class="hero container relative bg-darkViolet text-veryLightGray grid lg:grid-cols-2 lg:pt-20 lg:py-6 lg:px-40 mx-auto"
       >
-        <div class="flex flex-col mb-20 space-y-12 ">
-          <div class="flex flex-col mb-20 space-y-12">
-          <h1>Humanizing your insurance.</h1>
+        <div
+          class="grid mb-20 text-veryLightGray "
+        >
+          <hr class="w-32" />
+          <h1 class="font-serif text-5xl font-normal pt-5 mt-5">
+            Humanizing <br />your insurance.
+          </h1>
+          <p class="font-sans-serif font-normal my-4 opacity-70">
+            Get your life insurance coverage easier and faster. We blend our
+            expertise and technology to help you find the plan that’s right for
+            you. Ensure you and your loved ones are protected.
+          </p>
+          <a
+            href="#"
+            class="mt-5 inline-block border-2 py-3 px-5 max-w-32 hover:text-darkViolet hover:bg-veryLightGray"
+           
+            >View plans</a
+          >
+          </div>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/image-intro-desktop.jpg"
+            />
+            <img
+              src="./images/image-intro-mobile.jpg"
+              alt="image-intro-mobile"
+              class="lg:absolute"
+            />
+          </picture>
+          
+
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="./images/bg-pattern-intro-right-desktop.svg"
+              alt="bg-pattern-intro-right-desktop"
+            />
+            <img
+              src="./images/bg-pattern-intro-right-mobile.svg"
+              alt="bg-pattern-intro-right-mobile"
+              class="w-90 absolute right-0 lg:w-auto lg:top-0 "
+            />
+          </picture>
+
+          <picture>
+            <img
+              src="./images/bg-pattern-intro-left-desktop.svg"
+              alt="bg-pattern-intro-left-desktop"
+              class="hidden lg:flex lg:absolute lg:left-0 lg:-mb-sm"
+            />
+          </picture>
         </div>
-      </div>
-    </section>
-    Get your life insurance coverage easier and faster. We blend our expertise
-    and technology to help you find the plan that’s right for you. Ensure you
-    and your loved ones are protected. View plans We’re different Snappy Process
-    Our application process can be completed in minutes, not hours. Don’t get
-    stuck filling in tedious forms. Affordable Prices We don’t want you worrying
-    about high monthly costs. Our prices may be low, but we still offer the best
-    coverage possible. People First Our plans aren’t full of conditions and
-    clauses to prevent payouts. We make sure you’re covered when you need it.
-    Find out more about how we work How we work Our company How we work Why
-    Insure? View plans Reviews Help me FAQ Terms of use Privacy policy Cookies
-    Contact Sales Support Live chat Others Careers Press Licenses
+      </section>
+    </main>
+    We’re different Snappy Process Our application process can be completed in
+    minutes, not hours. Don’t get stuck filling in tedious forms. Affordable
+    Prices We don’t want you worrying about high monthly costs. Our prices may
+    be low, but we still offer the best coverage possible. People First Our
+    plans aren’t full of conditions and clauses to prevent payouts. We make sure
+    you’re covered when you need it. Find out more about how we work How we work
+    Our company How we work Why Insure? View plans Reviews Help me FAQ Terms of
+    use Privacy policy Cookies Contact Sales Support Live chat Others Careers
+    Press Licenses
 
     <div class="attribution">
       Challenge by

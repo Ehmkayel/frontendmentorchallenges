@@ -10,6 +10,13 @@ module.exports = {
 
     },
 
+    fontFamily: {
+      'sans-serif': [ 'Karla', 'sans-serif'],
+      'serif': ['"DM Serif Display" ', 'serif']
+    
+    },
+
+
     extend: {
       colors:{
         darkViolet: 'hsl(256, 26%, 20%)',
@@ -18,11 +25,7 @@ module.exports = {
         darkGrayishViolet: 'hsl(273, 4%, 51%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
       },
-      backgroundImage: {
-        'hero-background': "url('./images/bg-pattern-how-we-work-mobile.svg')",
-        
-        
-      }
+    
     },
   },
   plugins: [],
