@@ -3,9 +3,7 @@
 # Table of content
 - [Links](#links)
 
-## Recipe
-![desktop](./recipe-page-main/screenshot/desktop.png)
- - Live Site URL: [Recipe pages](https://recipe-page-main-sepia.vercel.app/)
+
 
  ## Sunnyside Landing Page
  ![desktop](./sunnyside-agency-landing-page-main/screenshot/desktop.png)
@@ -18,6 +16,10 @@
  ## News Homepage
  ![desktop](./News-homepage/Screenshot/desktop.png)
  - Live site URL: [News Homepage](https://newshomepage-f06se1d0y-ehmkayels-projects.vercel.app/)
+
+ ## Recipe
+![desktop](./recipe-page-main/screenshot/desktop.png)
+ - Live Site URL: [Recipe pages](https://recipe-page-main-sepia.vercel.app/)
 
  ## Huddle Landing page
  ![desktop](./huddle/screenshots/desktops.png)
