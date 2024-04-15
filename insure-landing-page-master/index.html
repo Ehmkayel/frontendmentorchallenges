@@ -120,7 +120,7 @@
         </div>
       </section>
       <section class="container mx-auto px-60 py-6 mt-56">
-        <hr class="w-32" />
+        <hr class="w-32 border-t-4 border-black" />
         <h2 class="font-serif text-5xl font-bold pt-9">We’re different</h2>
         <div class="flex mt-20 space-x-10">
           <div class="">
@@ -155,17 +155,32 @@
           </div>
         </div>
       </section>
-      <section class="container mx-auto px-60">
-        <div class="bg-darkViolet">
-          <h1 class="font-serif text-5xl text-wrap font-bold pt-5 mt-5">
-            Find out more about how we work
-          </h1>
-          <a
-            href="#"
-            class="mt-5 inline-block border-2 py-3 px-5 max-w-32 hover:text-darkViolet hover:bg-veryLightGray"
-            >How we work</a
-          >
-        </div>
+
+      <section
+        class="container mx-auto text-veryLightGray bg-darkViolet px-5 py-12 grid items-center gap-7 text-center lg:w-8/12 lg:grid-cols-2 relative"
+      >
+        <h1
+          class="font-serif text-5xl text-wrap font-bold pt-5 mt-5 text-start"
+        >
+          Find out more about how we work
+        </h1>
+        <a
+          href="#"
+          class="mt-5 inline-block border-2 py-3 px-5 max-w-40 hover:text-darkViolet hover:bg-veryLightGray uppercase tracking-wider absolute right-20 bottom-20"
+          >How we work</a
+        >
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/bg-pattern-how-we-work-desktop.svg"
+            alt="bg-pattern-how-we-work-desktop"
+          />
+          <img
+            src="./images/bg-pattern-how-we-work-mobile.svg"
+            alt="bg-pattern-how-we-work-mobile"
+            class="w-120 absolute right-0 lg:w-auto lg:top-0"
+          />
+        </picture>
       </section>
     </main>
     Our company How we work Why Insure? View plans Reviews Help me FAQ Terms of
