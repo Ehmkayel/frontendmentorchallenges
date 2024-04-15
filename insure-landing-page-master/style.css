@@ -6,4 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
+#intro-img{
+  max-height: 32rem
+}
 
