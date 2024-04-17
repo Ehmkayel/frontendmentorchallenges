@@ -160,9 +160,9 @@
         class="container mx-auto text-veryLightGray bg-darkViolet px-5 py-12 grid items-center gap-7 text-center lg:w-8/12 lg:grid-cols-2 relative my-20"
       >
         <h1
-          class="font-serif text-5xl text-wrap font-bold pt-5 mt-5 text-start"
+          class="font-serif text-5xl text-wrap font-bold pt-5 mt-5 text-start pl-10"
         >
-          Find out more about how we work
+          Find out more <br />about how we work
         </h1>
         <a
           href="#"
@@ -183,12 +183,24 @@
         </picture>
       </section>
     </main>
-    <footer class="container mx-auto text-xs">
-      <div class="flex">
-        <div class="">
+    <footer class="container mx-auto text-xs relative">
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="./images/bg-pattern-footer-desktop.svg"
+          alt="bg-pattern-how-we-work-desktop"
+        />
+        <img
+          src="./images/bg-pattern-how-we-work-mobile.svg"
+          alt="bg-pattern-how-we-work-mobile"
+          class="w-full absolute left-0 lg:w-auto lg:-top-10 h-4/6"
+        />
+      </picture>
+      <div class="flex flex-row px-60 pb-5">
+        <div class="basis-1/2">
           <img src="./images/logo.svg" alt="insure logo" />
         </div>
-        <div class="">
+        <div class="grid grid-cols-4 gap-3 ml-auto">
           <img src="./images/icon-facebook.svg" alt="facebook icon" />
           <img src="./images/icon-twitter.svg" alt="twitter icon" />
           <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
@@ -197,7 +209,7 @@
       </div>
       <hr />
       <div
-        class="container mx-auto grid grid-cols-4 px-60 py-7 uppercase font-sans-serif"
+        class="container mx-auto grid lg:grid-cols-4 lg:px-60 py-7 uppercase font-sans-serif"
       >
         <div class="">
           <ul>
