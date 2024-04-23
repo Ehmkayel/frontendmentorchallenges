@@ -16,13 +16,21 @@
   </head>
   <body>
     <main class="mx-auto text-xs">
-      <nav class="relative container mx-auto py-6 px-60">
+      <nav class="relative container mx-auto py-6 lg:px-60">
         <div class="flex items-center justify-between">
-          <div class="">
+          <div class="flex justify-between items-center px-4">
             <img src="./images/logo.svg" alt="insure logo" />
           </div>
+          <div class="flex justify-end w-full lg:w-auto mr-4">
+            <img
+              src="./images/icon-hamburger.svg"
+              alt="navigation menu"
+              class="cursor-pointer lg:hidden"
+              id="hamburger-menu"
+            />
+          </div>
           <div>
-            <ul class="hidden md:flex space-x-6">
+            <ul class="hidden lg:flex space-x-6" id="menu">
               <li>
                 <a
                   href="#"
@@ -110,7 +118,7 @@
           </picture>
         </div>
       </section>
-      <section class="container mx-auto px-60 py-6 mt-56">
+      <section class="container mx-auto lg:px-60 py-6 mt-56">
         <hr class="w-32 border-t-4 border-black" />
         <h2 class="font-serif text-5xl font-bold pt-9">We’re different</h2>
         <div class="flex mt-20 space-x-10">
@@ -255,5 +263,6 @@
       >. Coded by
       <a href="#" class="text-darkGrayishViolet">Lamidi Morufat Kajogbola</a>.
     </div>
+    <script src="index.js defer"></script>
   </body>
 </html>
