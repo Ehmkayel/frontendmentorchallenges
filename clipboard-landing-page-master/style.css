@@ -21,6 +21,12 @@ body{
     font-family: "Bai Jamjuree", sans-serif;;
 }
 
+main{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
 section{
     padding: 1.8em 0;
 }
@@ -204,7 +210,8 @@ footer{
 .contents{
     display: flex;
     justify-content: space-between;
-    gap: 500px;
+    gap: 200px
+    
 
 }
 .lists{
@@ -228,6 +235,9 @@ footer{
 
 .item__images img{
     object-fit: contain;
+    width: 30px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 
@@ -239,6 +249,14 @@ footer{
     color: hsl(228, 45%, 44%);
     font-size: 1.4em;
  }
+
+  @media screen and (max-width: 1200px){
+    .snippets-content{
+        display: flex;
+        flex-direction: column;
+    
+    }
+  }
 
  @media screen and (max-width: 768px){
 
