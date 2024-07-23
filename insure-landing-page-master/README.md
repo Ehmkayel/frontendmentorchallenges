@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [code](https://github.com/Ehmkayel/digital-notebook/tree/main/Project-day56/insure-landing-page-master)
-- Live Site URL: [live site URL ]()
+- Live Site URL: [live site URL ](https://insure-r.netlify.app/)
 
 ## My process
 
