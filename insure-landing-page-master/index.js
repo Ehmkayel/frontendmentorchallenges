@@ -12,5 +12,3 @@ closeNav.addEventListener("click", () => {
     hamburgerMenu.classList.remove("active")
    
 });
-
-
